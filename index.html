@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo de la empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <button id="inicio">Inicio</button>
+            <button id="registro">Registro</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>"Donde los peces encuentran su nuevo hogar."</h1>
+            <h2>AquaVida</h2>
+            <button id="ver-mas">Ver más</button>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <img src="img/pez1.jpg" alt="Feature 1">
+                <p>Entonces, ¿cómo se produce esta variedad de colores? Bueno, todo se reduce a la genética. El pez betta naranja es el resultado de procesos de crianza selectiva a lo largo de muchas generaciones . Como tal, su rareza los hace aún más intrigantes para los acuaristas.</p>
+            </div>
+            <div class="feature">
+                <img src="img/pez2.jpg" alt="Feature 2">
+                <p>El cuerpo del pez arcoíris mide entre cuatro doce centímetros de largo y es plano por los lados. Tiene los ojos grandes, el morro en punta y las escamas grandes, brillantes y visibles. Además, el rainbowfish cuenta con una aleta dorsal partida en dos.</p>
+            </div>
+            <div class="feature">
+                <img src="img/pez3.jpg" alt="Feature 3">
+                <p>Pez Betta Splendens Azul es un tipo de pez de agua dulce que proviene del sudeste asiático. Es conocido por su precioso color azul y aletas largas y vistosas. Los Betta son conocidos por su impresionante coloración, en este caso es un precioso color azul.</p>
+            </div>
+        </section>        
+
+        <section class="login-form">
+            <form id="login">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" id="remitir">Remitir</button>
+            </form>
+            <script src="js/js.js"></script>
+        </section>
+    </main>
+</body>
+</html>
